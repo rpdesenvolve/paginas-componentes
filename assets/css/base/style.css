@@ -1,0 +1,43 @@
+@import url(../base/reset.css);
+@import url(../base/_variaveis.css);
+@import url(../componentes/_cabecalho.css);
+@import url(../chamada.css);
+@import url(../componentes/_botoes.css);
+@import url(../componentes/_input.css);
+@import url(../componentes/_cartao.css);
+@import url(../como-conseguir.css);
+@import url(../componentes/_item.css);
+@import url(../componentes/_produto.css);
+@import url(../ofertas.css);
+@import url(../componentes/_video.css);
+@import url(../componentes/_rodape.css);
+
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    color: var(--cinza);
+    background-image: url("../../img/fundo-textura.png"), url("../../img/fundo-linhas.png");
+    background-position: center;
+}
+
+.container {
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.titulo { font-size: var(--tamanho-titulo); }
+
+.titulo--destaque {
+    display: block;
+    font-family: var(--familia-titulo-destaque);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+    color: var(--preto);
+    margin: .75rem 0;
+}
+
+.alinhamento--esquerda { text-align: left; }
+
+.alinhamento--meio { text-align: center; }
+
+.texto { line-height: 26px; }
